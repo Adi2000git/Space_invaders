@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\semestr5\\Komunikacja człowiek - komputer\\Praktyka\\Projekt2\\SpaceInvaders\\SpaceInvaders\\SpaceInvaders.csproj",
+      "projectUniqueName": "D:\\semestr5\\Komunikacja człowiek - komputer\\Praktyka\\Projekt2\\Space_invaders\\SpaceInvaders\\SpaceInvaders\\SpaceInvaders.csproj",
       "projectName": "SpaceInvaders",
-      "projectPath": "D:\\semestr5\\Komunikacja człowiek - komputer\\Praktyka\\Projekt2\\SpaceInvaders\\SpaceInvaders\\SpaceInvaders.csproj",
+      "projectPath": "D:\\semestr5\\Komunikacja człowiek - komputer\\Praktyka\\Projekt2\\Space_invaders\\SpaceInvaders\\SpaceInvaders\\SpaceInvaders.csproj",
       "packagesPath": "C:\\Users\\rijfa\\.nuget\\packages\\",
-      "outputPath": "D:\\semestr5\\Komunikacja człowiek - komputer\\Praktyka\\Projekt2\\SpaceInvaders\\SpaceInvaders\\obj\\",
+      "outputPath": "D:\\semestr5\\Komunikacja człowiek - komputer\\Praktyka\\Projekt2\\Space_invaders\\SpaceInvaders\\SpaceInvaders\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

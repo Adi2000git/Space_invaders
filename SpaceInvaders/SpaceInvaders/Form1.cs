@@ -1,12 +1,6 @@
-﻿using Microsoft.VisualBasic;
+﻿
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 using System.Windows.Forms;
 
 namespace SpaceInvaders
@@ -31,7 +25,7 @@ namespace SpaceInvaders
         private bool strza5;
 
         private int ktorykosmita;
-
+        
         private int wygrana = 0;
         private int poziom = 1;
         private int wynik = 0;
@@ -51,9 +45,14 @@ namespace SpaceInvaders
 
         private Random randomowaliczba = new Random();
 
+        System.Media.SoundPlayer player = new System.Media.SoundPlayer();
+
+
         public glownastrona()
         {
             InitializeComponent();
+            player.SoundLocation = "Untitled.wav";
+            player.Play();
             tworzpole();
             kosmitaStrzela();
             tablicawyniku();
@@ -330,6 +329,17 @@ namespace SpaceInvaders
             if (e.KeyValue == ruchS)
             {
                 strzapocz = true;
+            }
+            int ruchE = (int)Keys.E;
+            if (e.KeyValue == ruchE)
+            {
+                panel1.Hide();
+                stronagry.Hide();
+                label1.Show();
+                startgry.Show();
+                zakonczgry.Show();
+                pictureBox1.Show();
+                restartgre();
             }
         }
 
